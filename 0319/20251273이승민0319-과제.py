@@ -19,7 +19,7 @@ won_10 = (object_price - won_1000*1000 - won_500*500 - won_100*100)//10
 won_1 = object_price - won_1000*1000 - won_500*500 - won_100*100 - won_10*10
 
 #거스름돈 출력
-print("거스름돈 : ")
+print("거스름돈 : ", object_price)
 print("1000원 : ", won_1000)
 print("500원 : ",won_500)
 print("100원 : ",won_100)
