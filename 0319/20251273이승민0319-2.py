@@ -20,9 +20,9 @@ print("반지름이 ", radius, "인 원의 넓이 : %.3f"%circle_area)
 
 #점수 3개를 입력받아 총점과 평균 구해주세요
 
-score_1 = float(input("점수 1 입력"))
-score_2 = float(input("점수 2 입력"))
-score_3 = float(input("점수 3 입력"))
+score_1 = float(input("국어점수 입력 : "))
+score_2 = float(input("수학점수 입력 : "))
+score_3 = float(input("영어점수 입력 : "))
 
 total = score_1 + score_2 + score_3
 average = total / 3
