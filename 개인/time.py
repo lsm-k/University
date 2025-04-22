@@ -1,6 +1,7 @@
 import time as t
 import tkinter
 from tkinter import messagebox
+import threading
 
 #시간 변수
 h_1 = 0
@@ -72,7 +73,6 @@ timer_bt.place(x=490, y=60)
 #타이머 시작 버튼
 timer_start_bt = tkinter.Button(tk, text="타이머 시작", font=("맑은 고딕", 10), command=timer_start)
 timer_start_bt.place(x=290, y=100)
-
 
 
 tk.mainloop()
